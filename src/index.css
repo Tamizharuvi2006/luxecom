@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer base {
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #F5F0E6; /* Light theme background */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #C5A059; /* Gold accent */
+    border-radius: 5px;
+    border: 2px solid #F5F0E6; /* Creates padding effect */
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2C2C2C; /* Dark brand color on hover */
+  }
+
+  /* Firefox */
+  html {
+    scrollbar-width: thin;
+    scrollbar-color: #C5A059 #F5F0E6;
+  }
+}
+
+/* Hide scrollbar for elements with 'no-scrollbar' class */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
