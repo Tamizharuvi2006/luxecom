@@ -12,6 +12,8 @@ const About = () => {
                          <img 
                             src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80&w=1974&auto=format&fit=crop" 
                             alt="Atelier Background" 
+                                     loading="lazy"
+                                     decoding="async"
                             className="w-full h-full object-cover"
                         />
                     </div>
@@ -42,6 +44,8 @@ const About = () => {
                              <img 
                                 src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?q=80&w=2070&auto=format&fit=crop" 
                                 alt="Craftsmanship" 
+                                          loading="lazy"
+                                          decoding="async"
                                 className="w-full h-full object-cover"
                             />
                          </div>

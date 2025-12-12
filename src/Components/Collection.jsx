@@ -73,6 +73,8 @@ const Collection = () => {
             <img
               src={item.image}
               alt={item.name}
+              loading="lazy"
+              decoding="async"
               className="w-full h-full object-cover transition-transform duration-700 group-hover/item:scale-110"
             />
 

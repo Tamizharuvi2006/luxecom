@@ -7,6 +7,8 @@ const Hero = () => {
                 <img
                     src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop"
                     alt="Model"
+                    loading="lazy"
+                    decoding="async"
                     className="w-full h-full object-cover opacity-90"
                 />
 
@@ -59,6 +61,8 @@ const Hero = () => {
                                 <img
                                     src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=1964&auto=format&fit=crop"
                                     alt="Collection Item"
+                                    loading="lazy"
+                                    decoding="async"
                                     className="w-full aspect-[3/4] object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
                                 />
                             </div>
@@ -75,6 +79,8 @@ const Hero = () => {
                                 <img
                                     src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=2020&auto=format&fit=crop"
                                     alt="Main Feature"
+                                    loading="lazy"
+                                    decoding="async"
                                     className="w-full aspect-[4/5] object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
                                 />
                             </div>
@@ -87,6 +93,8 @@ const Hero = () => {
                                 <img
                                     src="https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=1888&auto=format&fit=crop"
                                     alt="Detail View"
+                                    loading="lazy"
+                                    decoding="async"
                                     className="w-full aspect-[3/4] object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
                                 />
                             </div>
@@ -99,6 +107,8 @@ const Hero = () => {
                                 <img
                                     src="https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?q=80&w=2070&auto=format&fit=crop"
                                     alt="Texture Detail"
+                                    loading="lazy"
+                                    decoding="async"
                                     className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
                                 />
                             </div>

@@ -142,6 +142,8 @@ const Shop = () => {
         <img
           src={product.image}
           alt={product.name}
+          loading="lazy"
+          decoding="async"
           // CHANGED object-cover to object-top to focus on the top/full garment if it crops
           className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
         />
@@ -289,6 +291,8 @@ const Shop = () => {
                 <img
                   src={selectedProduct.image}
                   alt={selectedProduct.name}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover object-top"
                 />
               </div>
@@ -366,6 +370,8 @@ const Shop = () => {
                             <img
                               src={related.image}
                               alt={related.name}
+                              loading="lazy"
+                              decoding="async"
                               className="w-full h-full object-cover object-top transition-transform group-hover:scale-105"
                             />
                           </div>
