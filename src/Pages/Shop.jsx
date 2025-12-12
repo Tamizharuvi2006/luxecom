@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { ShoppingCart, Heart, ArrowRight, Filter, X, Star, CreditCard, Eye } from 'lucide-react';
 import Header from '../Components/Header';
 import { useCart } from '../Context/CartContext';
+import { useToast } from '../Context/ToastContext';
+import { useNavigate } from 'react-router-dom';
 
 // Reliable Mock Data with Dress-focused images for Adults
 const ADULT_PRODUCTS = [
@@ -107,18 +109,21 @@ const KID_PRODUCTS = [
 
 const Shop = () => {
   const { addToCart } = useCart();
+  const { showToast } = useToast();
+  const navigate = useNavigate();
   const [activeSection, setActiveSection] = useState('all');
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [selectedSize, setSelectedSize] = useState('');
 
-  const handleAddToCart = (product, size = null) => {
-    const itemToAdd = size ? { ...product, size } : product;
-    addToCart(itemToAdd);
-    alert(`${product.name} added to cart!`);
+  const handleAddToCart = (product) => {
+    addToCart(product);
+    showToast(`${product.name} added to cart!`, 'success');
   };
 
   const handleBuyNow = (product) => {
-    alert(`Proceeding to checkout for ${product.name}.`);
+    addToCart(product);
+    showToast(`Proceeding to checkout`, 'info');
+    navigate('/cart');
   };
 
   // Get suggestions

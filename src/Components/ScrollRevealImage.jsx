@@ -40,7 +40,7 @@ const ScrollRevealImage = ({ src, alt, className, ...props }) => {
             src={src}
             alt={alt}
             {...props}
-            className={`${className} ${isInView ? 'grayscale-0' : 'grayscale'} lg:grayscale lg:group-hover:grayscale-0`}
+            className={`${className} ${isInView ? 'grayscale-0' : 'grayscale'}`}
         />
     );
 };
