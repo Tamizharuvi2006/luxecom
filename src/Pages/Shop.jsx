@@ -9,7 +9,7 @@ const ADULT_PRODUCTS = [
     id: 101,
     name: 'Midnight Velvet Gown',
     price: '₹12,000',
-    image: 'https://www.forevernew.co.in//pub/media/catalog/product/o/l/oldimlall_onbody_28020202_f.jpg?width=1046&height=1118&store=default&image-type=image', // Elegant dress
+    image: 'https://images.unsplash.com/photo-1595777457583-95e059d581b8?q=75&w=600&auto=format&fit=crop', // Optimized
     category: 'Formal',
     tag: 'Best Seller',
     description: 'Exquisite midnight blue velvet gown tailored for a sharp, modern silhouette. Features a plunging neckline and a high slit.',
@@ -19,7 +19,7 @@ const ADULT_PRODUCTS = [
     id: 102,
     name: 'Silk Chiffon Maxi',
     price: '₹8,500',
-    image: 'https://www.inddus.in/cdn/shop/products/blue-pink-floral-chiffon-maxi-dress-886426.jpg?v=1752668875', // Maxi dress
+    image: 'https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?q=75&w=600&auto=format&fit=crop', // Optimized
     category: 'Evening Wear',
     tag: 'New Arrival',
     description: 'Flowing silk chiffon maxi dress in a stunning floral print. Perfect for summer galas and evening soirées.',
@@ -29,8 +29,7 @@ const ADULT_PRODUCTS = [
     id: 103,
     name: 'Satin Slip Dress',
     price: '₹15,000',
-    // Changed to a more reliable, clear image
-    image: 'https://mishindia.com/wp-content/uploads/2024/01/7-31-768x1024.jpg',
+    image: 'https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?q=75&w=600&auto=format&fit=crop', // Optimized 
     category: 'Party',
     description: 'Luxuriously soft satin slip dress in champagne gold. A timeless investment piece for your wardrobe.',
     sizes: ['S', 'M', 'L']
@@ -39,7 +38,7 @@ const ADULT_PRODUCTS = [
     id: 104,
     name: 'Bohemian Lace Dress',
     price: '₹9,800',
-    image: 'https://ariamobridal.com/wp-content/uploads/2024/09/sounds-of-her-c.jpg', // White lace
+    image: 'https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?q=75&w=600&auto=format&fit=crop', // Optimized
     category: 'Summer',
     tag: 'Limited',
     description: 'Breathable cotton lace dress, structured for a relaxed yet polished summer look. Ideal for beach weddings.',
@@ -49,7 +48,7 @@ const ADULT_PRODUCTS = [
     id: 105,
     name: 'Rouge Cocktail Dress',
     price: '₹11,500',
-    image: 'https://www.izziofbaslow.com/cdn/shop/files/lindsey-brown-resortwear-beachwear-lindsey-brown-mykonos-maxi-dress-in-aqua-and-pink-izzi-of-baslow-30898606637131.png?v=1717709653', // Black/dark cocktail
+    image: 'https://images.unsplash.com/photo-1539008835657-9e8e9680c956?q=75&w=600&auto=format&fit=crop', // Optimized
     category: 'Cocktail',
     description: 'A stunning rouge cocktail dress that commands attention. Fitted bodice with a flared skirt.',
     sizes: ['XS', 'S', 'M']
@@ -58,7 +57,7 @@ const ADULT_PRODUCTS = [
     id: 106,
     name: 'Emerald Pleated Midi',
     price: '₹13,200',
-    image: 'https://cdn.shopify.com/s/files/1/0613/0316/1058/files/250306_StFrock_Bridesmaid_DA12048-GRN_0231.jpg?v=1746143486&width=700', // Pleated
+    image: 'https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?q=75&w=600&auto=format&fit=crop', // Optimized
     category: 'Formal',
     description: 'Elegant emerald green pleated midi dress. The movement of the fabric creates a mesmerizing effect.',
     sizes: ['M', 'L', 'XL']
@@ -70,8 +69,7 @@ const KID_PRODUCTS = [
     id: 201,
     name: 'Petite Floral Dress',
     price: '₹2,500',
-    // REPLACED with reliable Kid dress image
-    image: 'https://liandli.in/cdn/shop/files/WHITE2_c62aa2a9-9f19-40ae-9d0f-93ef6032b981.jpg?v=1723014989',
+    image: 'https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?q=75&w=600&auto=format&fit=crop', // Optimized
     category: 'Girls',
     tag: 'Cute',
     description: 'Adorable floral print dress with a satin sash. Made from 100% organic cotton for comfort.',
@@ -81,8 +79,7 @@ const KID_PRODUCTS = [
     id: 202,
     name: 'Junior Gentleman Suit',
     price: '₹4,200',
-    // REPLACED with reliable Kid suit image
-    image: 'https://m.media-amazon.com/images/I/61LUx7BWwzL._AC_UY1100_.jpg',
+    image: 'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=75&w=600&auto=format&fit=crop', // Optimized
     category: 'Boys',
     description: 'Miniature version of our classic suit, designed for ring bearers and special occasions.',
     sizes: ['3Y', '5Y', '7Y', '9Y']
@@ -91,8 +88,7 @@ const KID_PRODUCTS = [
     id: 203,
     name: 'Winter Knit Set',
     price: '₹1,200',
-    // NEW, reliable kid image
-    image: 'https://www.katia.com/files/mod/6232/pattern-knit-crochet-baby-set-autumn-winter-katia-6232-16-g.jpg',
+    image: 'https://images.unsplash.com/photo-1519457431-44ccd64a579b?q=75&w=600&auto=format&fit=crop', // Optimized
     category: 'Infant',
     tag: 'Cozy',
     description: 'Ultra-soft knitted set for winter. Hypoallergenic and gentle on delicate skin.',
@@ -102,8 +98,7 @@ const KID_PRODUCTS = [
     id: 204,
     name: 'Denim Day Jacket',
     price: '₹2,800',
-    // NEW, reliable kid jacket
-    image: 'https://img.tatacliq.com/images/i14/437Wx649H/MP000000019635373_437Wx649H_202310122009421.jpeg',
+    image: 'https://images.unsplash.com/photo-1619537903549-0981d6bca911?q=75&w=600&auto=format&fit=crop', // Optimized
     category: 'Unisex',
     description: 'Cool and durable denim jacket with custom buttons. A staple for any stylish kid.',
     sizes: ['4Y', '6Y', '8Y', '10Y']
@@ -219,8 +214,8 @@ const Shop = () => {
                   key={section}
                   onClick={() => setActiveSection(section)}
                   className={`uppercase text-[10px] md:text-xs tracking-[0.2em] whitespace-nowrap transition-colors duration-300 ${activeSection === section
-                      ? 'text-[#C5A059] font-bold'
-                      : 'text-[#888] hover:text-[#C5A059]'
+                    ? 'text-[#C5A059] font-bold'
+                    : 'text-[#888] hover:text-[#C5A059]'
                     }`}
                 >
                   {section === 'all' ? 'All Collections' : section}
@@ -329,8 +324,8 @@ const Shop = () => {
                         key={size}
                         onClick={() => setSelectedSize(size)}
                         className={`min-w-[48px] h-12 px-2 flex items-center justify-center border rounded-lg text-sm font-medium transition-all ${selectedSize === size
-                            ? 'bg-[#2C2C2C] text-white border-[#2C2C2C]'
-                            : 'border-gray-200 text-[#666] hover:border-[#C5A059]'
+                          ? 'bg-[#2C2C2C] text-white border-[#2C2C2C]'
+                          : 'border-gray-200 text-[#666] hover:border-[#C5A059]'
                           }`}
                       >
                         {size}

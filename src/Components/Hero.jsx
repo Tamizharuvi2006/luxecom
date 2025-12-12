@@ -1,15 +1,17 @@
+import ScrollRevealImage from './ScrollRevealImage';
+
 const Hero = () => {
     return (
         <div className="relative w-full h-[100vh] bg-[#C5A059] overflow-hidden flex flex-col lg:flex-row">
             {/* Left Sidebar / Background Image Section */}
             <div className="w-full lg:w-[35%] h-64 lg:h-auto relative bg-[#C5A059]">
                 {/* Main Sidebar Image */}
-                <img
-                    src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop"
+                <ScrollRevealImage
+                    src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=75&w=600&auto=format&fit=crop"
                     alt="Model"
                     loading="lazy"
                     decoding="async"
-                    className="w-full h-full object-cover opacity-90"
+                    className="w-full h-full object-cover opacity-90 transition-all duration-700"
                 />
 
                 {/* Logo */}
@@ -30,12 +32,7 @@ const Hero = () => {
 
                 {/* Top Navigation - Links Removed as requested */}
                 <nav className="flex flex-col md:flex-row justify-between items-start md:items-center mb-16 text-[10px] font-bold tracking-[0.2em] uppercase text-gray-400 gap-6">
-                    <div className="flex flex-wrap gap-8">
-                        {/* Links removed: Fashion, Beauty, Life, Sales */}
-                    </div>
-                    <div className="flex flex-wrap gap-8 items-center">
-                        {/* Links removed: Careers, Events */}
-                    </div>
+                    {/* ... content ... */}
                 </nav>
 
                 {/* Main Grid Layout */}
@@ -58,12 +55,12 @@ const Hero = () => {
                         <div className="relative group cursor-pointer">
                             <span className="text-[10px] font-bold text-gray-400 mb-2 block">02</span>
                             <div className="overflow-hidden">
-                                <img
-                                    src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=1964&auto=format&fit=crop"
+                                <ScrollRevealImage
+                                    src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=75&w=600&auto=format&fit=crop"
                                     alt="Collection Item"
                                     loading="lazy"
                                     decoding="async"
-                                    className="w-full aspect-[3/4] object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+                                    className="w-full aspect-[3/4] object-cover transition-all duration-700"
                                 />
                             </div>
                         </div>
@@ -76,12 +73,12 @@ const Hero = () => {
                         <div className="w-2/3 ml-auto mb-12 relative group cursor-pointer">
                             <span className="text-[10px] font-bold text-gray-400 mb-2 block">01</span>
                             <div className="overflow-hidden">
-                                <img
-                                    src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=2020&auto=format&fit=crop"
+                                <ScrollRevealImage
+                                    src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=75&w=600&auto=format&fit=crop"
                                     alt="Main Feature"
                                     loading="lazy"
                                     decoding="async"
-                                    className="w-full aspect-[4/5] object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+                                    className="w-full aspect-[4/5] object-cover transition-all duration-700"
                                 />
                             </div>
                         </div>
@@ -90,12 +87,12 @@ const Hero = () => {
                         <div className="w-1/2 absolute top-[40%] left-0 z-20 group cursor-pointer hidden md:block">
                             <span className="text-[10px] font-bold text-gray-400 mb-2 block">03</span>
                             <div className="overflow-hidden shadow-xl">
-                                <img
-                                    src="https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=1888&auto=format&fit=crop"
+                                <ScrollRevealImage
+                                    src="https://images.unsplash.com/photo-1509631179647-0177331693ae?q=75&w=600&auto=format&fit=crop"
                                     alt="Detail View"
                                     loading="lazy"
                                     decoding="async"
-                                    className="w-full aspect-[3/4] object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+                                    className="w-full aspect-[3/4] object-cover transition-all duration-700"
                                 />
                             </div>
                         </div>
@@ -104,12 +101,12 @@ const Hero = () => {
                         <div className="w-2/3 ml-auto mt-24 group cursor-pointer">
                             <span className="text-[10px] font-bold text-gray-400 mb-2 block">04</span>
                             <div className="overflow-hidden h-48">
-                                <img
-                                    src="https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?q=80&w=2070&auto=format&fit=crop"
+                                <ScrollRevealImage
+                                    src="https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?q=75&w=600&auto=format&fit=crop"
                                     alt="Texture Detail"
                                     loading="lazy"
                                     decoding="async"
-                                    className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+                                    className="w-full h-full object-cover transition-all duration-700"
                                 />
                             </div>
                         </div>

@@ -1,15 +1,17 @@
 import { Routes, Route } from 'react-router-dom';
-import Home from "./Pages/Home";
+import Home from './Pages/home';
 import Shop from "./Pages/Shop";
 import Cart from "./Pages/Cart";
 import DumpMe from "./Pages/DumpMe";
-import Footer from "./Components/Footer";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
+import Footer from "./Components/Footer";
+import ScrollToTop from './Components/ScrollToTop';
 
 function App() {
   return (
     <div className="App">
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/shop" element={<Shop />} />

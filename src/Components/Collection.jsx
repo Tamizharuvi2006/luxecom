@@ -7,42 +7,42 @@ const collections = [
     id: 1,
     name: "Evening Elegance",
     category: "Gowns",
-    image: "https://images.unsplash.com/photo-1595777457583-95e059d581b8?q=80&w=1983&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1595777457583-95e059d581b8?q=75&w=600&auto=format&fit=crop",
     className: "row-span-3 col-start-1 row-start-1"
   },
   {
     id: 2,
     name: "Tailored Perfection",
     category: "Suits",
-    image: "https://images.unsplash.com/photo-1594633313593-bab3825d0caf?q=80&w=1887&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1594633313593-bab3825d0caf?q=75&w=600&auto=format&fit=crop",
     className: "row-span-3 col-start-2 row-start-1"
   },
   {
     id: 3,
     name: "Casual Luxe",
     category: "Day Wear",
-    image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1920&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=75&w=600&auto=format&fit=crop",
     className: "col-span-2 row-span-2 col-start-1 row-start-4"
   },
   {
     id: 4,
     name: "Heritage Collection",
     category: "Classic",
-    image: "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?q=80&w=1887&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?q=75&w=600&auto=format&fit=crop",
     className: "col-span-2 row-span-5 col-start-3 row-start-1"
   },
   {
     id: 5,
     name: "Modern Minimalist",
     category: "Contemporary",
-    image: "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=2070&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=75&w=600&auto=format&fit=crop",
     className: "row-span-3 col-start-5 row-start-1"
   },
   {
     id: 6,
     name: "Statement Pieces",
     category: "Avant-Garde",
-    image: "https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=2070&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1483985988355-763728e1935b?q=75&w=600&auto=format&fit=crop",
     className: "row-span-2 col-start-5 row-start-4"
   }
 ];
@@ -67,7 +67,7 @@ const Collection = () => {
         {collections.map((item) => (
           <div
             key={item.id}
-            className={`relative group/item overflow-hidden rounded-xl ${item.className} cursor-pointer transition-all duration-500 group-hover:grayscale hover:!grayscale-0`}
+            className={`relative group/item overflow-hidden rounded-xl ${item.className} cursor-pointer transition-all duration-500 lg:group-hover:grayscale lg:hover:!grayscale-0`}
             onClick={handleNavigate}
           >
             <img
